@@ -29,8 +29,16 @@ h6 {
 	font-weight: 500;
 }
 
+.bottomfooter h3 {
+	color: #ffff;
+}
+
+.bottomfooter p {
+	color: #ffff;
+}
+
 h1 {
-	font-size: 70px;
+	font-size: 55px;
 }
 
 h2 {
