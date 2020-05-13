@@ -68,6 +68,7 @@ p {
 	font-weight: 500;
 }
 
+
 img {
 	max-width: 100%;
 }
@@ -149,8 +150,17 @@ ol {
 .text-white span,
 .text-white li,
 .text-white a {
-	color: #fff;
+	color: #000;
 }
+
+.offers h1{
+	color: #000
+}
+
+.offers {
+	margin: 60px 10px 30px 10px;
+}
+
 .logo-image{
     width: 46px;
     height: 46px;
@@ -288,12 +298,12 @@ ol {
 	margin-left:10px; */
 	/* margin-top: 20px;
 	margin-bottom: 20px; */
-	background-color: #000;
+	background-color: #D3D3D3;
 	
 }
 .section-slider{
 	
-	background-color:#ffba35;
+	background-color:#D3D3D3;
 	/* margin: 0 auto; */
 }
 @media (min-width:576px){
@@ -344,6 +354,7 @@ ol {
 	font-size: 16px;
 	padding-top: 4px;
 }
+
 
 .header-social a,
 .footer-social a,
@@ -596,6 +607,10 @@ ol {
 	opacity: 0;
 }
 
+.sliding img{
+	margin-left: 110px !important;
+}
+
 .hero-slider .owl-item.active .hero-item h2,
 .hero-slider .owl-item.active .hero-item p,
 .hero-slider .owl-item.active .hero-item .site-btn {
@@ -637,12 +652,12 @@ ol {
   Intro section
 ---------------------*/
 .reg-section {
-	background: #ffba35;
+	background: #fff;
 }
 .intro-section {
 	
 	/*background: #0c062e;*/
-	background: #ffba35;
+	background: #D3D3D3;
 	/* background: #fff; */
 	padding: 115px 0;
 	
@@ -736,6 +751,13 @@ ol {
 	background: #b01ba5;
 }
 
+.pleasecontact {
+	background-color: #d3d3d3;
+}
+
+form table {
+	margin-bottom: 50px;
+}
 .blog-item {
 	margin-top: 86px;
 }
@@ -1017,7 +1039,7 @@ ol {
 }
 
 .featured-box .text-box h3 {
-	font-size: 60px;
+	font-size: 55px;
 	max-width: 100%;
 }
 

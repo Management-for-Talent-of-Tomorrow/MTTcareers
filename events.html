@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>TechNole - Andres</title>
+    <title>MTT - Services</title>
     <meta charset="UTF-8">
     <meta name="description" content="TechNole">
     <meta name="keywords" content="technole,student, group, fsu, cs, technology, computer science,html">
@@ -64,6 +64,9 @@
                 <li class="nav-item">
 					<a href="remote.html" class="nav-link">Remote Jobs</a>
                 </li>
+                <li class="nav-item">
+					<a href="contactus.html" class="nav-link">Contact Us</a>
+                </li>
 				
 			</ul>
 		</div>
@@ -77,99 +80,92 @@
                    
                     <h3>Resume Builder</h3>
                     <p>
+                        Tired of your college career center resume advice not giving you results?
                         We will sit down with you, ask questions about your experience, projects, certifications and make your resume look outstanding!
                         We know what the recruiters are looking for and we can also tailor the resume to specific job openings of your interest.
                         Taking a look at specific details in the job opening can make a world of difference in your future offer. 
                         
-
-                        <p>
-                            <div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'checkout',
-          
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '70'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-      }
-  }).render('#paypal-button-container');
-</script>
-                        </p>
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                            
+                    
+                           
+                        
                     </p>
                     <h3>LinkedIn Deep Build</h3>
                     <p>
                         We will help you build the perfect LinkediIn to build connections with your future employees, we will do research and add the candidates that will help you. Additionally, we will create functional messages for you to communicate with recruiters! This is really important in today's technological world.
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                            
                     </p>
+                </p>
+                <h3>LinkedIn Management</h3>
+                <p>
+                    We will help you build a profile based on your needs, help you build your personal brand on a month to month basis, your account will also post and establish meaningful relations with local businesses.
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        
+                </p>
+            </p>
+            <h3>Cover Letter</h3>
+            <p>
+                We will help you to land your job by writing a critical and highly effective cover letter that highlights the best of your abilites and why you are the best fit for the job! Many job seekers overlook this aspect of the job hunting process, when in reality, it is an opportunity to set yourself apart from other individuals!
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Number of Cover Letters">Number of Cover Letters</td></tr><tr><td><select name="os0">
+                        <option value="1 Cover Letter">1 Cover Letter $60.00 USD</option>
+                        <option value="2 Cover Letters">2 Cover Letters $100.00 USD</option>
+                        <option value="3 Cover Letters">3 Cover Letters $130.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    
+            </p>
+            
+        </p>
+        <h3>Social Media Management</h3>
+        <p>
+            We have experience managing social media accounts for businesses. Our analytics team will measure the best ways to provide return of investment and add clients into your business , our clients include everything from Real State offices, Chiropractors, Physical therapist offices, Retail stores, Pet Accounts and Restaurants!
+            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
 
-                    <p>
-                        <div id="paypal-button-container"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'pill',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'checkout',
-          
-      },
-      createOrder: function(data, actions) {
-          return actions.order.create({
-              purchase_units: [{
-                  amount: {
-                      value: '60'
-                  }
-              }]
-          });
-      },
-      onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-      }
-  }).render('#paypal-button-container');
-</script>
-                    </p>
+                <!--View Cart Button-->
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    
+        </p>
                    
                 </div>
             </div>
-        <!-- <div class="featured-box-left">
-            <div class="text-box">
-               
-                <h3>Info Sessions</h3>
-                <p>
-                    TechNole frequently works with employers who bring current employees and recruiters, to explain the 
-                    types of jobs available and internship opportunities. We are always open to networking events and 
-                    collaborating with companies and clubs with a passion for technology.
-                </p>
-                <h3>Workshops</h3>
-                <p>
-                    Workshops are focused around emerging technologies and projects that can have real world applications 
-                    for FSU students. We have done everything from Blockchain to Artificial Intelligence and AWS.
-                </p>
-               
-            </div>
-        </div>
-        <div class="featured-bg-right set-bg" data-setbg="./img/web-vr.png"></div> -->
+       
     </section>
 
-    <section class="section reg-section">
+    <section class="section reg-section pleasecontact">
         <div class="container py-5">
             <div class="row text-center text-white">
                 <div class="col-lg-8 mx-auto">
@@ -179,13 +175,7 @@
             <div class="row">
 
                 
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="3" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                    
+                
             </div>
         </div>
     </section>
@@ -196,18 +186,18 @@
             <a href="index.html" class="footer-logo"></a>
 				<div class="bottomfooter">
 					<h3>Management for Talent of Tomorrow</h3>
-					<p>Email: MTTinterviews.org</p>
+					<p>Email: MTTCareersDevelopment@gmail.com</p>
 					<p>Phone Number: 7542073691</p>
 				</div>
-            <div class="footer-social d-flex justify-content-center">
-                <a href="https://www.facebook.com/TechNole/"><i class="fa fa-lg fa-facebook"
-                        style="color: white"></i></a>
-                <a href="https://twitter.com/technolefsu?lang=en"><i class="fa fa-lg fa-twitter"
-                        style="color: white"></i></a>
-                <a href="https://www.instagram.com/technolefsu/"><i class="fa fa-lg fa-instagram"
-                        style="color: white"></i></a>
-
-            </div>
+                <div class="footer-social d-flex justify-content-center">
+                    <a href="https://www.facebook.com/"><i class="fa fa-lg fa-facebook"
+                            style="color: white"></i></a>
+                    <a href="https://twitter.com"><i class="fa fa-lg fa-twitter"
+                            style="color: white"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-lg fa-instagram"
+                            style="color: white"></i></a>
+    
+                </div>
             <!-- <div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div> -->
         </div>
     </footer>
