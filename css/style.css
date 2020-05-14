@@ -607,9 +607,11 @@ ol {
 	opacity: 0;
 }
 
-.sliding img{
-	margin-left: 110px !important;
-}
+@media all and (min-width: 700px){
+	.sliding img {
+		margin-left: 110px !important;
+	}
+} 
 
 .hero-slider .owl-item.active .hero-item h2,
 .hero-slider .owl-item.active .hero-item p,
